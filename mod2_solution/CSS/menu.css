@@ -1,7 +1,9 @@
 /********** Base styles **********/
 * {
   box-sizing: border-box;
-}
+  margin-top: 0px;
+ }
+
 h1 {
   margin-bottom: 15px;
   text-align:center;
@@ -23,7 +25,7 @@ h1 {
   font-family: Helvetica;
   color: black;
   position:relative;
-  margin-top: 20px;
+  margin-top: 30px;
 
 }
 
@@ -32,7 +34,7 @@ h2 {
   width:150px;
   border:1px solid black;
   position: absolute;
-  top: -17px;
+  top: 0px;
   right: 0px;
   text-align: center;
   font-size: 125%
@@ -184,10 +186,9 @@ padding: 65px 10px 10px 10px;
     width: 100%;
   }
   .div1, .div2, .div3 {
-    width:85%;
+    width:90%;
     margin-right: auto;
     margin-left: auto;
   }
 
 }
-  
